@@ -1,9 +1,5 @@
 import pygame
 
-"""
-timers can be passed an optional function (func), which executes that function
-when the timer runs out
-"""
 
 class Timer:
     def __init__(self, duration, func=None):
